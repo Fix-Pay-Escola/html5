@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../Documents/Estudos/Bebel"
+		},
+		{
+			"name": "html5-1",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html5-1"
+	}
+}
