@@ -7,12 +7,6 @@ p {
     text-indent: 50px;
 }
 
-h2,
-h1,
-h3 {
-    text-align: center;
-}
-
 figure.foto-legenda {
     position: relative;
     border: 8px solid white;
@@ -40,4 +34,53 @@ figure.foto-legenda figcaption {
 
 figure.foto-legenda:hover figcaption {
     opacity: 1;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 133, 7);
+}
+
+nav#menu a {
+    text-decoration: none;
+    color: rgb(38, 57, 9)
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    top: -125px;
+    left: 380px;
+    right: auto;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: rgb(119, 152, 68);
+    padding: 10px;
+    margin: 2px;
+    transition: 0.25s;
+}
+
+nav#menu li:hover {
+    background-color: rgb(99, 121, 65)
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+div#interface{
+    width: 1000px;
+    background-color: rgb(202, 227, 165);
+    margin: 10px auto 10px auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+    padding: 10px ;
+}
+header#cabecalho img#icone{
+    float: right;
+    margin-top:-70px;
+    left: 900px;
+    right: auto;
 }

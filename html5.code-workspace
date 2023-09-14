@@ -1,14 +1,16 @@
 {
 	"folders": [
 		{
-			"path": "../../Documents/Estudos/Bebel"
+			"path": "."
 		},
 		{
-			"name": "html5-1",
-			"path": "."
+			"path": "../../Downloads/projeto-glass-html5/_fonts"
+		},
+		{
+			"path": "../../Downloads/projeto-glass-html5/_javascript"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "html5-1"
+		"liveServer.settings.multiRootWorkspaceName": "html5"
 	}
 }
