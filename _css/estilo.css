@@ -1,10 +1,38 @@
+@font-face {
+    font-family: 'Coolvetica';
+    src: url(../_fonts/coolvetica.otf);
+}
 body {
-    background-color: rgb(154, 187, 105);
+    background-color: rgb(161, 180, 192);
 }
 
 p {
     text-align: justify;
     text-indent: 50px;
+}
+
+header#cabecalho {
+    border-bottom: 1px #131313 solid;
+    height: 140px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 90px;
+}
+
+header#cabecalho h1 {
+    font-family: 'Coolvetica', sans-serif;
+    font-size: 33px;
+    color: rgb(152, 177, 192);
+    text-shadow: 1px 1px 1.75px rgba(0, 0, 0, 0.108);
+    padding: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+}
+
+header#cabecalho h2 {
+    font-family: 'Coolvetica', sans-serif;
+    color: rgb(203, 217, 225);
+    padding: 0px;
+    margin-top: 0px;
+    letter-spacing: 1px;
 }
 
 figure.foto-legenda {
@@ -38,49 +66,52 @@ figure.foto-legenda:hover figcaption {
 
 a {
     text-decoration: none;
-    color: rgb(0, 133, 7);
+    color: rgb(14, 100, 151);
+    font-weight: bold;
 }
 
 nav#menu a {
     text-decoration: none;
-    color: rgb(38, 57, 9)
+    color: rgb(32, 73, 96);
 }
 
 nav#menu ul {
     list-style: none;
     text-transform: uppercase;
     position: relative;
-    top: -125px;
-    left: 380px;
+    top: -110px;
+    left: 353px;
     right: auto;
 }
 
 nav#menu li {
     display: inline-block;
-    background-color: rgb(119, 152, 68);
+    background-color: rgb(173, 199, 214);
     padding: 10px;
     margin: 2px;
     transition: 0.25s;
+    border-radius: 2.5px;
 }
 
 nav#menu li:hover {
-    background-color: rgb(99, 121, 65)
+    background-color: rgb(89, 112, 126);
 }
 
 nav#menu h1 {
     display: none;
 }
 
-div#interface{
+div#interface {
     width: 1000px;
-    background-color: rgb(202, 227, 165);
+    background-color: rgb(255, 255, 255);
     margin: 10px auto 10px auto;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
-    padding: 10px ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
 }
-header#cabecalho img#icone{
+
+header#cabecalho img#icone {
     float: right;
-    margin-top:-70px;
-    left: 900px;
+    margin-top: -70px;
+    left: 1010px;
     right: auto;
 }
