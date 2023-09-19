@@ -110,6 +110,19 @@ section#corpo {
     padding-right: 15px;
 }
 
+table#tabelaspec {
+    border: 1px solid black;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabelaspec td {
+    border: 1px solid rgb(162, 162, 162);
+    padding: 10px;
+    text-align: center;
+}
+
 aside#lateral {
     display: block;
     width: 250px;
