@@ -1,10 +1,13 @@
 @font-face {
     font-family: 'Coolvetica';
     src: url(../_fonts/coolvetica.otf);
+    font-family: 'Roboto';
+    src: url(../_fonts/Roboto-Regular.ttf);
 }
 
 body {
     background-color: rgb(161, 180, 192);
+    font-family: Arial, sans-serif;
 }
 
 p {
@@ -71,6 +74,10 @@ a {
     font-weight: bold;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 nav#menu a {
     text-decoration: none;
     color: rgb(32, 73, 96);
@@ -81,7 +88,7 @@ nav#menu ul {
     text-transform: uppercase;
     position: relative;
     top: -110px;
-    left: 353px;
+    left: 402.5px;
     right: auto;
 }
 
@@ -92,6 +99,7 @@ nav#menu li {
     margin: 2px;
     transition: 0.25s;
     border-radius: 2.5px;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav#menu li:hover {
@@ -127,6 +135,53 @@ aside#lateral {
     display: block;
     width: 250px;
     float: right;
+    background-color: rgb(222, 227, 234);
+    padding: 10px 2px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.391);
+    border-radius: 3px;
+    height: 1348px;
+}
+
+aside#lateral h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20pt;
+    color: rgb(107, 136, 154);
+    margin: -5px 5px;
+}
+
+aside#lateral h2 {
+    font-size: 12pt;
+    color: #ffffff;
+    background-color: rgba(120, 138, 161, 0.653);
+    padding: 5px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 2px;
+}
+
+table#tabelaspec td.ce {
+    text-align: left;
+    vertical-align: top;
+}
+
+table#tabelaspec td.cd {
+    text-align: center;
+    vertical-align: top;
+}
+
+table#tabelaspec caption {
+    color: rgb(165, 178, 185);
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+table#tabelaspec caption span {
+    display: block;
+    float: right;
+    color: rgb(99, 110, 116);
+    font-size: 9px;
+    margin-top: 10px;
 }
 
 div#interface {
@@ -135,7 +190,7 @@ div#interface {
     margin: 10px auto 10px auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     padding: 10px;
-    height: 1290px;
+    height: 1540px;
 }
 
 header#cabecalho img#icone {
@@ -148,4 +203,39 @@ header#cabecalho img#icone {
 footer#rodape {
     clear: both;
     text-align: center;
+}
+
+article#noticia-principal h2 {
+    font-size: 12pt;
+    color: #131313;
+    background-color: rgba(165, 177, 193, 0.249);
+    padding: 5px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 2px;
+}
+
+header#cabecalho-article h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20pt;
+    color: rgb(152, 177, 192);
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+
+header#cabecalho-article h2 {
+    font-size: 12pt;
+    color: rgb(193, 213, 225);
+    background-color: white;
+    margin: 0px;
+}
+
+header#cabecalho-article h3 {
+    font-size: 10pt;
+    color: rgb(168, 185, 195);
+    margin: 10px 0px 0px 0px;
+}
+
+.direita {
+    text-align: right;
+    margin-top: -100px;
 }
